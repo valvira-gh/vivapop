@@ -10,7 +10,7 @@ const TodoForm = () => {
 
     return (
         <form action={formAction} className="flex space-x-1 p-4">
-            <Input type="text" placeholder="Add new todo..." />
+            <Input type="text" name="todo" placeholder="Add new todo..." />
             <Button type="submit">Submit</Button>
         </form>
     )
